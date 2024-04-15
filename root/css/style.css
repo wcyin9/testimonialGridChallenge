@@ -152,7 +152,11 @@ footer a:active {color: #44D3D2;}
 		overflow: hidden;
 		padding-bottom: 0;
 		margin-bottom: 0;
-		padding-top: 60px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.container {
 		grid-template-columns: repeat(4, 1fr);
